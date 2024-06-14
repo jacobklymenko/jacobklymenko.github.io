@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/artists_style.css">
+    <script src="js/logic.js" defer></script>
+</head>
+
+<title>JazzList - Artists</title>
+
+<body>
+    <div id="header">
+        <div id="header-links">
+            <div class="nav-button"><a href="index.html">Home</a></div>
+            <div class="nav-button" id="main"><a href="artists.html">Artists</a></div>
+            <div class="nav-button"><a href="about.html">About</a></div>
+        </div>
+        <div id="title"><a href="index.html">JazzList</a></div>
+        <div id="social-links">
+            <a href="https://open.spotify.com/playlist/6cvwDmtIJsw4C6WvW8AW9a" target="_blank">
+                <div class="circlular-socials-container">
+                    <div class="socials-button">
+                        <img src="social svgs/spotify.svg" class="button-off">
+                        <img src="social svgs/spotify-colored.svg" class="button-on">
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/jacob-klymenko-82123922b/" target="_blank">
+                <div class="square-socials-container">
+                    <div class="socials-button">
+                        <img src="social svgs/linkedin.png" class="button-off">
+                        <div class="button-on">
+                            <div id="background-color-circle"></div>
+                            <img src="social svgs/linkedin-colored.png" id="linkedin-icon">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/jacobklymenko" target="_blank">
+                <div class="circlular-socials-container">
+                    <div class="socials-button">
+                        <img src="social svgs/github.svg" class="button-off">
+                        <div class="button-on">
+                            <div id="black-circle"></div>
+                            <img src="social svgs/github-white.svg" id="github-icon">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="content_container">
+        <div id="profiles_viewer_container">
+            <div id="profiles_container"></div>
+        </div>
+    </div>
+    <div id="info_background" class="hidden">
+        <div id="info_container" class="hidden">
+            <img src="pictures/reject-60px.png" id="close_button">
+            <div id="name_container">
+                <div id="name"></div>
+            </div>
+            <div id="bio_container">
+                <div id="image_container">
+                    <img id="image">
+                </div>
+                <div id="bio_text_container">
+                    <div id="bio_text"></div>
+                </div>
+            </div>
+            <div id="videos_container">
+                <div id="video_1_container">
+                    <iframe id="video_1"></iframe>
+                </div>
+                <div id="video_2_container">
+                    <iframe id="video_2"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>     
+</body>
+
+</html>
